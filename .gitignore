@@ -1,0 +1,24 @@
+# Logs and state
+logs/
+db/
+*.log
+*.pid
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Docker and environment
+.env
+.dockerignore
+
+# Airflow runtime
+airflow.cfg
+webserver_config.py
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
